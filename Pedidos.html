@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canastrão Queijos</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Stoke:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src= "CanastraoLogoTopo.png" alt="Logo da Queijaria" class="imgLogo">
+        <address class="ender"> 
+            Av. Gorgonzola, 235 <br>
+            Tel: (21) 912351235 <br>
+            contato@canastrao.com.br 
+        </address>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="CanastraoQueijos.html" target="_blank">Apresentação</a></li>
+            <li> <a href="Queijos.html" target="_blank">Queijos</a></li>
+            <li> <a href="Harmonizacao.html" target="_blank">Harmonização</a></li>
+            <li> <a href="Pedidos.html" target="_blank">Pedidos</a></li>
+        </ul>
+    </nav>
+    <section class="apres">
+        <div class="divCompras">
+            <h1>Compras</h1>
+            <form action="mailto:contato@canastrao.com.br " method="post">
+                <fieldset>
+                    <legend>Identificação</legend>
+                    <div class="divLinha">
+                        <label for="nome" class="colPri">Nome:</label>
+                        <input type="text" size="30" name="nome" id="nome" required class="impGrande">
+                    </div>
+                    <div class="divLinha">
+                        <label for="email" class="colPri">Email:</label>
+                        <input type="email" name="email" id="email" required class="impGrande">
+                    </div>
+                    <div class="divLinha">
+                        <label for="endereco" class="colPri">Endereço:</label>
+                        <textarea name="endereço" id="endereco" required class="impEnder"></textarea>
+                        <fieldset class="fsDir">
+                            <legend>Gênero:</legend>
+                            <label><input type="radio" name="sex" value="Mas">Mas</label>
+                            <label><input type="radio" name="sex" value="Fem">Fem</label>
+                            <label><input type="radio" name="sex" value="Outro">Outro</label>
+                        </fieldset>
+                    </div>
+                    <div class="divLinha">
+                        <label for="telefone" class="colPri">Telefone:</label>
+                        <input type="tel" name="telefone" id="telefone" class="impTelef">
+                        <fieldset class="fsDir">
+                            <legend>Nascimento:</legend>
+                            <input type="number" min="1" max="31" name="dia" class="nunDD"> /
+                            <input type="number" min="1" max="12" name="mes" class="nunDD"> /
+                            <input type="number" min="1900" name="ano" class="nunQD">
+                        </fieldset>
+                    </div>
+                    <div class="divLinha">
+                        <label for="celular" class="colPri">Celular:</label>
+                        <input type="tel" name="celular" id="celular" required class="impTelef">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Seleção de Produtos e Pagamento</legend>
+                    <div class="linhaProdSel">
+                        <select name="Produtos" required>
+                            <option value="">----</option>
+                            <optgroup label="Nacional">
+                                <option value="Queijocanastra">Canastra (500g)</option>
+                                <option value="QueijoMinas">Queijo Minas (400g)</option>
+                                <option value="QueijoCoalho">Queijo Coalho (500g)</option>
+                            </optgroup>
+                            <optgroup label="Internacional">
+                                <option value="QueijoGorgonzola">Gorgonzola (200g)</option>
+                                <option value="QueijoBrie">Queijo Brie (200g)</option>
+                            </optgroup>
+                        </select>
+                        <input type="button" name="comprar" value="Comprar" class="elemDir">
+                    </div>
+                    <textarea name="listacompras" readonly class="listaCompras"></textarea>
+                    <fieldset class="fsEsq">
+                        <legend>Cartão</legend>
+                        <div class="elemCC">
+                            <label class="colPri">Bandeira</label>
+                            <label><input type="radio" name="Bandeira" value="Mas">Visa</label>
+                            <label><input type="radio" name="Bandeira" value="Fem">Master</label>
+                            <label><input type="radio" name="Bandeira" value="Outro">Elo</label>
+                        </div>
+                        <div class="elemCC">
+                            <label for="Validade" class="colPri">Validade:</label>
+                            <input type="number" min="1" max="12" name="mes" id="Validade" required class="nunDD"> /
+                            <input type="number" min="2000" name="ano" id="Validade" required class="nunQD">
+                        </div>
+                        <div class="elemCC">
+                            <label for="numero" class="colPri">Número:</label>
+                            <input type="text" size="16" id="numero" required class="impNCC">
+                        </div>
+                    </fieldset>
+                    <div class="f">
+                        <label for="valor">Valor R$</label>
+                        <input type="text" id="valor" readonly class="impMedio">
+                    </div>
+                </fieldset>
+                <div class="botoes">
+                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="reset" name="resetar" value="Limpar">
+                </div>    
+            </form>
+        </div>
+    </section>
+</body>
+</html>

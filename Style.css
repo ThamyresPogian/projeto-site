@@ -1,0 +1,188 @@
+body{
+    background-color: #EEDDAA;
+    color: #3366BB;
+    font-size: 16px;
+    font-family: 'Stoke', 'Lucida Bright', 'Liberation';
+}
+header{
+    display: block; 
+    margin-bottom: 1px;
+}
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+nav ul{
+    color: #3366BB; 
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: disc;
+}
+section{
+    display: block;
+    width: 70%;
+    float: right;
+}
+.imgLogo{
+    border-bottom: solid 4px #3366BB; 
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+.ender{
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-family: 'Karla', 'Verdana', 'Ubuntu';
+    font-size: 14px;
+}
+.apres{
+    text-align: center;
+    font-size: 16px;
+}
+ul{
+    line-height: 200%;
+}
+a:link{
+    color: #2555AA;
+}
+a:visited{
+    color: #2555CC;
+}
+.listaQueijo{
+    width: 440px;
+    color: #3366BB;
+    background-color: #FFFFBB;
+    padding: 10px;
+    border: 2px solid #3366BB;
+    margin: 0px auto 10px;
+    text-align: left;
+}
+.listaQueijo ul{
+    color: #3366BB;
+    font-size: 14px;
+}
+.listaQueijo dt{
+    text-decoration: underline;
+}
+.tabQueijo{
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 6px;
+    color: #114499;
+    background-color: #FFFFBB;
+    font-family: 'Karla', 'Verdana', 'Ubuntu';
+}
+.tabQueijo th{
+    border: 2px solid #000000;
+    padding: 6px 12px 6px 12px;
+}
+.tabQueijo td{
+    border: 2px solid #000000;
+    padding: 6px 12px 6px 12px;
+}
+.linTH{
+    color: #EEEE00;
+    background-color: #887733;
+    vertical-align: middle;
+    text-align: center;
+}
+.colTH{
+    color: #222222;
+    background-color: #CCBB88;
+    text-align: left;
+}
+.imgQueijo{
+    width: 60px;
+    height: 44px;
+}
+.preco{
+    color: #CC0000;
+}
+.divCompras{
+    width: 550px;
+    color: #2555AA;
+    background-color: #FFFFBB;
+    padding: 6px 6px 15px 6px;
+    font-size: 12px;
+    margin: 20px auto 20px;
+    border: 2px solid #000000;
+}
+.listaCompras{
+    width: 210px;
+    height: 160px;
+    float: right;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+.botoes{
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+.fsEsq{
+    float: left;
+    display: inline;
+    margin: 0px;
+}
+.fsDir{
+    float: right;
+    display: inline;
+    margin: 0px;
+}
+.impGrande{
+    width: 380px;
+}
+.impMedio{
+    width: 80px;
+}
+.impNCC{
+    width: 130px;
+}
+.impTelef{
+    width: 90px;
+}
+.impEnder{
+    width: 180px;
+    height: 50px;
+}
+.nunDD{
+    width: 30px;
+}
+.nunQD{
+    width: 50px;
+}
+.divLinha{
+    width: 500px;
+    margin-bottom: 6px;
+}
+.colPri{
+    display: block;
+    float: left;
+    width: 90px;
+    text-align: left;
+}
+legend{
+    text-align: left;
+}
+.elemCC{
+    margin-bottom: 20px;
+}
+.elemDir{
+    display: block;
+    float: right;
+    margin: 0px;
+}
+.linhaProdSel{
+    display: block;
+    float: left;
+    width: 240px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+.f{
+    display: block;
+    clear: both;
+    width: 160px;
+    float: right;
+}
